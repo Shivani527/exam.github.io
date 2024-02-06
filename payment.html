@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+    <style>
+        body{
+            background-image: url('payment.jpeg');
+            background-size: 100%;
+            margin-left: 50px;
+        }
+       .head{
+            font-size: 30px;
+            margin-top: 60px;
+            font-weight: bolder;
+        }
+        .head1{
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        .box{
+            margin-left: 20px;
+            border-radius: 20px;
+        }
+        .box1{
+            padding: 20px;
+            height: 425px;
+            width: 450px;
+            border-radius: 10% 10% 10% 10%; 
+            background-color: rgb(255, 255, 255,0.6); 
+            margin-top: 10px;
+            border-color: #000;
+            border-width: 20px;
+        }
+        .head3{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        .bux{
+            margin-left: 340px;
+            font-size: 25px;
+            font-weight: bold;
+            align-items: center;
+            background-color: rgb(58, 226, 248);
+            border-radius: 20px;
+            padding: 10px;
+            width: 80px;
+            margin-top: -30px;
+        }
+        .head5{
+            font-size: 20px;
+        }
+        .bux1{
+            margin-top: 10px;
+            margin-left: 20px;  
+            width: 220px;
+            border-radius: 10px;
+            height: 20px;
+            padding: 5px;
+        }
+        .bux2{
+            border-radius: 10px;
+    height: 20px;
+    padding: 5px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head6{
+    font-size: 20px;
+    margin-left: 240px;
+    margin-top: -80px;
+}
+.bux3{
+    border-radius: 10px;
+    height: 20px;
+    padding: 5px;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cancel{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:  50px;
+    margin-left: 40px;
+    background-color: rgb(58, 226, 248);
+    width: 60px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.payment{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:  -45px;
+    margin-left: 260px;
+    background-color: rgb(58, 226, 248) ;
+    width: 120px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    </style>
+</head>
+<body>
+    <div class="head">
+        For our conformation please answer the following questions
+    </div>
+    <div class="head1">
+        <br>
+        Enter your name: 
+        <div class="box">
+            <input type="text" style="border-radius: 10px; background-color: rgb(187, 233, 233); padding: 5px;" placeholder="Hema">
+        </div>
+    </div>
+    <div class="head1">
+        <br>
+        Enter your roll number: 
+        <div class="box">
+            <input type="text" style="border-radius: 10px; background-color: rgb(187, 233, 233); padding: 5px;" placeholder="232010223">
+        </div>
+    </div>
+    <div class="head1">
+        <br>
+        Enter your college name: 
+        <div class="box">
+            <input type="text" style="border-radius: 10px; background-color: rgb(187, 233, 233); padding: 5px;" placeholder="Vignan barathi">
+        </div>
+    </div>
+    <div class="head1">
+        <br>
+        Enter your college address: 
+        <div class="box">
+            <input type="text" style="border-radius: 10px; background-color: rgb(187, 233, 233); padding: 5px;" placeholder="Secunderabad">
+        </div>
+        <br>
+        <br>
+    </div>
+    <div class="box1">
+        <div class="head3">
+            Total amount
+        </div>
+        <div class="bux">
+            Rs.  450
+        </div>
+        <div class="head5">
+            <br>
+            NAME OF CARD<br>
+            <input type="text" class="bux1" placeholder="SBI">    
+        </div>
+        <div class="head5">
+            <br>
+            CARD NUMBER<br>
+            <input type="text" class="bux1" placeholder="Card Number">    
+        </div>
+        <div class="head5">
+            <br>
+            EXPIRY<br>
+            <input type="date" class="bux2" placeholder="Card Number">    
+        </div>
+        <div class="head6">
+            <br>
+            CVV<br>
+            <input type="number" class="bux3" placeholder="123">    
+        </div>
+        <div class="cancel">
+            Cancel
+        </div>
+        <div class="payment">
+            Make Payment
+        </div>
+
+    </div>
+</body>
+</html>
